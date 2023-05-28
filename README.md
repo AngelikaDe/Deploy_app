@@ -1,3 +1,5 @@
+## Deploying a Web App to a Remote Server w/o Docker
+
 ### Server Gateway Interface
 WSGI (англ. Web Server Gateway Interface) — стандарт взаимодействия Python-фреймворков и веб-серверов.
 Gunicorn — это WSGI-сервер, созданный для использования в UNIX-системах. 
@@ -40,4 +42,4 @@ Secure Socket Layer (англ. «уровень защищённых сокет�
 `sudo certbot --nginx`
 В файл /etc/nginx/sites-enabled/default добавятся новые настройки и будут прописаны пути к сертификату
 ![certificate](screenshots/certificate.png)
-![certificate_1](screenshots/ertificate.png)
+![certificate_1](screenshots/certificate_1.png)
