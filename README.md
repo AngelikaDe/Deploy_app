@@ -21,7 +21,7 @@ Systemd (от англ. system daemon — «системный демон»). Э
 ## Firewall ufw
 Файервол - программа для ограничения доступныы портов
 * оставить открытыми порты 
-`sudo ufw allow 'Nginx Full` - активирует разрешение принимать запросы на порты 80 и 443.
+`sudo ufw allow 'Nginx Full'` - активирует разрешение принимать запросы на порты 80 и 443.
 `sudo ufw allow OpenSSH` - ктивирует разрешение для порта 22 — это стандартный порт для соединения по SSH
 * sudo ufw status 
 ![ufw_status](screenshots/ufw_status.png)
